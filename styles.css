@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     
+h1{
+    font-family: roboto,sans-serif;
+    position: relative;
+    left: 12vh;
+    bottom: -3vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    height: 12vh;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    border: none;
+    width: 35vw;
+    
+ 
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    bottom: -4vh;
+    
+  
+    
+   
+   
+}
+li{
+    font-family: "Roboto",sans-serif;
+    color: #707070;
+   
+    
+
+}
+li:hover{
+    color:black ;
+    font-size: larger;
+    transition: 1s;
+    
+    
+}
+.sectionimg{
+    border:none;
+    height: 80vh;
+    background-image: url("./img/laranja.png");
+    background-size: 100%;
+}
+
+h2{
+   position: relative;
+   bottom: -46vh;
+   left: 12vh;
+   font-size: 45px;
+   font-family: "roboto",sans-serif;
+   color: white;
+}
+p{
+    position: relative;
+    bottom: -55vh;
+    left: 13vh;
+    font-size: 25px;
+    font-family: "roboto",sans-serif;
+    color: white;
+    width:17vw ;
+   
+   
+   
+}
+p:hover{
+   font-size: 27px;
+    transition: 1s;
+    text-decoration:  underline;
+    
+}
