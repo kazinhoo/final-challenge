@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }     
 h1{
-    font-family: roboto,sans-serif;
+    font-family: "Roboto",sans-serif;
     position: relative;
     left: 12vh;
     bottom: -3vh;
@@ -15,9 +15,10 @@ header{
     justify-content: space-between;
     border:none;
     height: 12vh;
-    background-color: white;
+    background-color:white;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 nav{
     border: none;
@@ -41,19 +42,24 @@ ul{
 li{
     font-family: "Roboto",sans-serif;
     color: #707070;
-   
+    font-size: 15px;
+    transition: calc(2s);
     
-
+    
+    
+    
+    
 }
 li:hover{
     color:black ;
-    font-size: larger;
-    transition: 1s;
+    transform: scale(130%);
+    font-weight: 800;
+    font-size: 17px;
     
     
 }
 .sectionimg{
-    border:none;
+    border:solid;
     height: 80vh;
     background-image: url("./img/laranja.png");
     background-size: 100%;
@@ -64,7 +70,7 @@ h2{
    bottom: -46vh;
    left: 12vh;
    font-size: 45px;
-   font-family: "roboto",sans-serif;
+   font-family: "Roboto",sans-serif;
    color: white;
 }
 p{
@@ -72,16 +78,38 @@ p{
     bottom: -55vh;
     left: 13vh;
     font-size: 25px;
-    font-family: "roboto",sans-serif;
+    font-family: "Roboto",sans-serif;
     color: white;
     width:17vw ;
-   
-   
-   
+    transition: calc(2s);
+
 }
 p:hover{
-   font-size: 27px;
-    transition: 1s;
+ 
+   transform: scale(110%);
     text-decoration:  underline;
     
+}
+
+main{
+    height: 50vh;
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+img{
+    width: 19vw;
+    transition: calc(2s);
+    
+}
+
+img:hover{
+    transform: scale(110%);
+   
+
+
 }
